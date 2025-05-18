@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modal Example</title>
+  <link rel="stylesheet" href="modal_style.css" />
+</head>
+<body>
+  <!-- Button Container at Top -->
+  <div class="btn-container">
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <h1>I am a modal window 👋</h1>
+    <p>This is just a demo modal popup. You can put any content here.</p>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay hidden"></div>
+
+  <script src="modal_script.js"></script>
+</body>
+</html>
